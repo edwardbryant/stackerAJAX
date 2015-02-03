@@ -40,6 +40,27 @@
 	margin: 0 auto 1em auto;
 }
 
+.answerer-img {
+    float: left;
+}
+.answerer-stats {
+    float: left;
+    padding: 6px;
+}
+.answerer-stats div {
+    margin-bottom: 6px;
+}
+.posts, .score, .reputation {
+    color: #F67A00;
+}
+.answerer:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+
 .error {
 	background-color: #F78181;
 	padding: 1em;
